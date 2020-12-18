@@ -18,5 +18,5 @@ const server = http.createServer((req, res) => {
 });
 console.log("createServer done 2")
 //監聽得到的 port 號開啟
-server.listen(port, () => console.log(`Listening on ${PORT}`));
+server.listen(port, () => console.log(`Listening on ${port}`));
 console.log("end")
